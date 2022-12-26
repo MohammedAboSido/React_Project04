@@ -15,6 +15,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background: var(--bg);
+    transition: all 3ms ease;
+    color: var(--black);
+    scroll-behavior: smooth;
+}
+
 .App {
     display: flex;
     flex-direction: column;
