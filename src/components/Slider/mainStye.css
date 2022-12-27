@@ -1,0 +1,11 @@
+.swiper-button-prev:after {
+    left: 6rem;
+    position: absolute;
+    color: black;
+}
+
+.swiper-button-next {
+    position: absolute;
+    right: 6rem;
+    color: black;
+}

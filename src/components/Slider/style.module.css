@@ -1,0 +1,8 @@
+.sContainer {
+    position: relative;
+}
+
+.sContainer .mySwiper {
+    width: 70%;
+    position: unset;
+}
