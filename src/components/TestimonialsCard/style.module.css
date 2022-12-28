@@ -1,0 +1,32 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0rem 1rem 3rem -50px #7d7d7d;
+    background-color: white;
+}
+
+.testimonial>img {
+    position: absolute;
+    width: 3rem;
+    top: -1.5rem;
+    left: 45%;
+}
+
+.testimonial>span:nth-of-type(1) {
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+
+.testimonial>hr {
+    height: 1px;
+    width: 80%;
+    background-color: rgb(198, 198, 198);
+}

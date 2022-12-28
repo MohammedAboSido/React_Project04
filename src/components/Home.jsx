@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import Products from "./Products/Products";
 import Slider from "./Slider/Slider";
+import Testimonials from "./Testimonials/Testimonials";
 import Virtual from "./Virtual/Virtual";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Slider />
       <Virtual />
       <Products />
+      <Testimonials />
     </>
   );
 }
