@@ -1,11 +1,13 @@
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 import React, { useState } from "react";
 import plane from "../../assets/plane.png";
 import Card from "../Card/Card";
 import { ProductsData } from "./Data";
 import style from "./style.module.css";
+
 export default function Products() {
   const [menuProducts, setMenuProducts] = useState(ProductsData);
-
+  const [parent] = useAutoAnimate();
   const filterHandler = (type) => {
     setMenuProducts(ProductsData.filter((product) => product.type === type));
   };
@@ -22,7 +24,7 @@ export default function Products() {
             <li onClick={() => filterHandler("conditioner")}>Conditioner</li>
             <li onClick={() => filterHandler("foundation")}>Foundation</li>
           </ul>
-          <div className={style.list}>
+          <div className={style.list} ref={parent}>
             {menuProducts.map((item) => {
               return (
                 <Card
