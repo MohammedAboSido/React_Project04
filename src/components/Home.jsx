@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import Products from "./Products/Products";
@@ -15,6 +16,7 @@ export default function Home() {
       <Virtual />
       <Products />
       <Testimonials />
+      <Footer />
     </>
   );
 }
