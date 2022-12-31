@@ -1,4 +1,4 @@
-.swiper-button-prev:after {
+.swiper-button-prev {
     left: 6rem;
     position: absolute;
     color: black;
@@ -8,4 +8,12 @@
     position: absolute;
     right: 6rem;
     color: black;
+}
+
+@media screen and (max-width: 856px) {
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
 }
