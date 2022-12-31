@@ -13,6 +13,17 @@ export default function Slider() {
     <>
       <div className={style.sContainer}>
         <Swiper
+          breakpoints={{
+            640: {
+              slidesPerView: 3,
+            },
+            440: {
+              slidesPerView: 2,
+            },
+            0: {
+              slidesPerView: 1,
+            },
+          }}
           className={style.mySwiper}
           modules={[Navigation]}
           loopFillGroupWithBlank={true}

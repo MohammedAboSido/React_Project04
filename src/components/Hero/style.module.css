@@ -174,3 +174,23 @@
     }
 
 }
+
+@media screen and (max-width: 640px) {
+    .blueCircle {
+        top: 0;
+        width: 16rem;
+        height: 72%;
+    }
+
+    .wrapper>img {
+        top: 3rem;
+        width: 12rem;
+        height: 15rem;
+    }
+
+    .cart2 {
+        transform: scale(0.7);
+        right: -2rem;
+        bottom: 0;
+    }
+}
